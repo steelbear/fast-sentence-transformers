@@ -102,7 +102,7 @@ class HFOnnx(Tensors):
             preprocessor=tokenizer,
             tokenizer=None,
             config=onnx_config,
-            opset=12,
+            opset=14,
         )
 
         # Export model to ONNX
